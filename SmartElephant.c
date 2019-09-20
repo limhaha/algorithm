@@ -17,7 +17,7 @@ int main(){
     int s_weight, s_IQ;
     int i = 0;
     FILE *fp;
-    fp = fopen("input1.txt", "r");
+    fp = fopen("input2.txt", "r");
 
     if(fp == NULL){
         printf("FILE is not found.");
@@ -62,7 +62,7 @@ void sort(int weight[], int iq[], int n){
 int findIndex(int Weight, int iq, int n){
     int i = 0;
     for(i =0; i<n; i++){
-        if(iq == e[i].iq && Weight == e[i].weight){
+        if(Weight == e[i].weight && iq == e[i].iq ){
         return i;
         }   
     }
@@ -90,7 +90,8 @@ void findLCS(int n){
     for(i=0; i<n; i++){
         temp[count++] = findIndex(t_weight[i], t_iq[i], n);
         for(j=i; j<n; j++){
-            if( (t_weight[j] < e[temp[count-1]].weight) &&  (t_iq[j] > e[temp[count-1]].iq)){
+            if( (t_weight[j] < e[temp[count-1]].weight) && (t_iq[j] > e[temp[count-1]].iq)){
+                
                 temp[count++] = findIndex(t_iq[j], t_weight[j], n);
             }
             }
