@@ -1,0 +1,49 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+int main ()
+{
+	int cost[100];
+	int total_expense, avg_expense, exchanged;
+	char line[255];
+	int i, num;
+
+	while (1)
+	{
+		scanf("%d", &num);
+		if (num == 0)
+			break;
+		else if (num > 100 || num < 0)
+		{
+			printf("ERROR : invalid input\n");
+			exit(1);
+		}
+
+		total_expense = 0;
+		for (i = 0; i < num; ++ i)
+		{
+			scanf("%d", &cost[i]);
+			if (cost[i] > 100000 || cost[i] < 0)
+			{
+				printf("ERROR : invalid input\n");
+				exit(1);
+			}
+			total_expense += cost[i];
+		}
+		avg_expense = total_expense / num;
+		if (avg_expense >= 100)
+			avg_expense -= avg_expense % 10;
+
+		exchanged = 0;
+		for (i = 0; i < num; ++ i)
+		{
+			if (avg_expense > cost[i])
+				exchanged += (avg_expense - cost[i]);
+		}
+		exchanged -= (exchanged % 10);
+		printf("\\%d\n", exchanged);
+	}
+	
+	return 0;
+}

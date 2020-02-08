@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HOMEWORK7_jewel box_이종호", "HOMEWORK7_jewel box_이종호\HOMEWORK7_jewel box_이종호.vcxproj", "{CECDE579-D4ED-4067-BF47-26B3C26BD2A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CECDE579-D4ED-4067-BF47-26B3C26BD2A3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CECDE579-D4ED-4067-BF47-26B3C26BD2A3}.Debug|Win32.Build.0 = Debug|Win32
+		{CECDE579-D4ED-4067-BF47-26B3C26BD2A3}.Release|Win32.ActiveCfg = Release|Win32
+		{CECDE579-D4ED-4067-BF47-26B3C26BD2A3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

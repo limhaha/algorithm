@@ -1,0 +1,29 @@
+﻿빌드 시작: 2012-10-05 오후 11:38:47
+     1>2 노드의 "C:\Users\LLEEJONG\Documents\소설경\2학년 2학기\알고리즘\HOMEWORK10_contest trip_이종호\HOMEWORK10_contest trip_이종호\HOMEWORK10_contest trip_이종호.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
+         main.c
+     1>c:\users\lleejong\documents\소설경\2학년 2학기\알고리즘\homework10_contest trip_이종호\homework10_contest trip_이종호\main.c(138): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(290) : 'scanf' 선언을 참조하십시오.
+     1>c:\users\lleejong\documents\소설경\2학년 2학기\알고리즘\homework10_contest trip_이종호\homework10_contest trip_이종호\main.c(142): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(290) : 'scanf' 선언을 참조하십시오.
+     1>c:\users\lleejong\documents\소설경\2학년 2학기\알고리즘\homework10_contest trip_이종호\homework10_contest trip_이종호\main.c(146): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(290) : 'scanf' 선언을 참조하십시오.
+     1>c:\users\lleejong\documents\소설경\2학년 2학기\알고리즘\homework10_contest trip_이종호\homework10_contest trip_이종호\main.c(150): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(290) : 'scanf' 선언을 참조하십시오.
+     1>c:\users\lleejong\documents\소설경\2학년 2학기\알고리즘\homework10_contest trip_이종호\homework10_contest trip_이종호\main.c(153): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(290) : 'scanf' 선언을 참조하십시오.
+     1>c:\users\lleejong\documents\소설경\2학년 2학기\알고리즘\homework10_contest trip_이종호\homework10_contest trip_이종호\main.c(158): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(290) : 'scanf' 선언을 참조하십시오.
+     1>c:\users\lleejong\documents\소설경\2학년 2학기\알고리즘\homework10_contest trip_이종호\homework10_contest trip_이종호\main.c(161): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(290) : 'scanf' 선언을 참조하십시오.
+     1>c:\users\lleejong\documents\소설경\2학년 2학기\알고리즘\homework10_contest trip_이종호\homework10_contest trip_이종호\main.c(164): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(290) : 'scanf' 선언을 참조하십시오.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\LLEEJONG\Documents\소설경\2학년 2학기\알고리즘\HOMEWORK10_contest trip_이종호\Debug\HOMEWORK10_contest trip_이종호.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\LLEEJONG\Documents\소설경\2학년 2학기\알고리즘\HOMEWORK10_contest trip_이종호\Debug\HOMEWORK10_contest trip_이종호.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\LLEEJONG\Documents\소설경\2학년 2학기\알고리즘\HOMEWORK10_contest trip_이종호\Debug\HOMEWORK10_contest trip_이종호.lib" /MACHINE:X86 Debug\main.obj
+         HOMEWORK10_contest trip_이종호.vcxproj -> C:\Users\LLEEJONG\Documents\소설경\2학년 2학기\알고리즘\HOMEWORK10_contest trip_이종호\Debug\HOMEWORK10_contest trip_이종호.exe
+     1>"C:\Users\LLEEJONG\Documents\소설경\2학년 2학기\알고리즘\HOMEWORK10_contest trip_이종호\HOMEWORK10_contest trip_이종호\HOMEWORK10_contest trip_이종호.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:01.22

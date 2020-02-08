@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HOMEWORK16_marketing strategy_이종호", "HOMEWORK16_marketing strategy_이종호\HOMEWORK16_marketing strategy_이종호.vcxproj", "{DFC704C0-268A-4190-9690-4934B1AB1283}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFC704C0-268A-4190-9690-4934B1AB1283}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DFC704C0-268A-4190-9690-4934B1AB1283}.Debug|Win32.Build.0 = Debug|Win32
+		{DFC704C0-268A-4190-9690-4934B1AB1283}.Release|Win32.ActiveCfg = Release|Win32
+		{DFC704C0-268A-4190-9690-4934B1AB1283}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
